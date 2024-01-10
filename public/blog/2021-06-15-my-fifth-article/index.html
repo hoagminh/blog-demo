@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
     <title>My Fifth Article</title>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <header class="page-header">
@@ -39,7 +40,8 @@
     </div>
   </div>
 </header>
-    
+    <main>
+      
 <article class="main-article">
     <div class="container container--narrow flow">
         <h1 class="article-title">My Fifth Article</h1>
@@ -55,6 +57,7 @@
 
     </div>
 </article>
+    </main>
     <footer class="site-footer">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -69,5 +72,17 @@
   </svg>
   <p>© 2024 HoangMinh. All rights reserved.</p>
 </footer>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

@@ -23,3 +23,11 @@ Many blogs provide commentary on a particular subject or topic, ranging from phi
 A 2022 estimate suggested that there were over 600 million public blogs out of more than 1.9 billion websites.
 
 ![](/assets/blog/article-4.jpg)
+
+'**Blog**' and '**blogging**' are now loosely used for content creation and sharing on social media, especially when the content is long-form and one creates and shares content on regular basis. So, one could be maintaining a blog on Facebook or blogging on Instagram. Blogging is writing about what you like. In other words, writing about what you know and providing valuable information to people searching for it.
+
+A 2022 estimate suggested that there were over 600 million public blogs out of more than 1.9 billion websites.
+
+```
+
+```
